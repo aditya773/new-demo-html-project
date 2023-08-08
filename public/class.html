@@ -1,0 +1,37 @@
+<html>
+<head>
+<base href="https://www.w3schools.com/" target="_blank">
+<style>
+.city {background-color:rgb(250,0,0);
+       padding:2px;
+       margin:2px;
+       border:1px solid black;
+}
+</style>
+</head>
+
+<body>
+<a href="html/html_head.asp">here&lt is the base</a>
+<div class="city" id="demo">
+<h1>This is heading 1.</h1>
+<p>This is paragraph 1.</p>
+</div>
+<div class="city">
+<h1>This is heading 2.</h1>
+<p>This is paragraph 2.</p>
+</div>
+<div class="city">
+<h1>This is heading 3.</h1>
+<p>This is paragraph 3.</p>
+</div>
+<p>This is paragraph 4.</p>
+<button type="button" onclick="myfunction()">click here</button>
+<script>
+function myfunction(){
+document.getElementById("demo").style.fontSize = "30px";
+document.getElementById("demo").style.color = "blue";
+document.getElementById("demo").style.backgroundColor = "white";
+}
+</script>
+</body>
+</html>

@@ -1,0 +1,11 @@
+<html>
+<head>
+</head>
+<body>
+
+<form>
+<p>Full name:<input type="text" name="email"></p>
+<p>Course:<input type="text" name="course"></p>
+<p>Age:<input type="radio" name="age" value="over 18">over 18
+       <input type="radio" name="age" value="under 18">under 18
+      
